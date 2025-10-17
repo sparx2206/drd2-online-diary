@@ -3,6 +3,16 @@
 ## Purpose
 This document provides general guidelines for all AI agents contributing to the drd2-online-diary project.
 
+## Language Requirement
+
+**IMPORTANT**: This project is developed in Czech language. All user-facing content must be in Czech, including:
+- User interface text and labels
+- Error messages and notifications
+- Documentation intended for end users
+- Comments explaining business logic
+
+Code elements (variable names, function names, class names) should follow English naming conventions for consistency with programming standards.
+
 ## Core Principles
 
 ### 1. Understand Before Acting

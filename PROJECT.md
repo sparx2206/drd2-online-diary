@@ -4,6 +4,8 @@
 
 The drd2-online-diary is an online diary application designed to provide users with a secure and intuitive platform for recording their daily thoughts, experiences, and reflections.
 
+**Language**: The entire application, including user interface, documentation, and all user-facing content, must be in Czech language.
+
 ## Project Goals
 
 ### Primary Objectives
@@ -112,7 +114,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 
 ## Future Considerations
 
-- Multi-language support
 - Collaborative features
 - AI-powered insights
 - Cross-platform applications (mobile apps)

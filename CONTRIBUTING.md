@@ -2,6 +2,10 @@
 
 Thank you for your interest in contributing to the drd2-online-diary project! This document provides guidelines and best practices for contributing to this project.
 
+## Important Note
+
+**This project is developed in Czech language.** All user-facing content, including UI text, documentation, error messages, and comments in the code should be in Czech. Code (variable names, function names, etc.) should follow English naming conventions for consistency with common programming practices.
+
 ## Getting Started
 
 1. Fork the repository
