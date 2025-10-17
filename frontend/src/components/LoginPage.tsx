@@ -48,13 +48,15 @@ const LoginPage: React.FC = () => {
   const handleLogin = (e: React.FormEvent) => {
     e.preventDefault();
     // TODO: Implement login logic
-    console.log('Login:', { email: loginEmail, password: loginPassword });
+    console.log('Login attempt for email:', loginEmail);
+    // Note: Password should be sent securely to backend, never logged
   };
 
   const handleRegister = (e: React.FormEvent) => {
     e.preventDefault();
     // TODO: Implement registration logic
-    console.log('Register:', { email: registerEmail, password: registerPassword });
+    console.log('Registration attempt for email:', registerEmail);
+    // Note: Password should be sent securely to backend, never logged
   };
 
   return (
