@@ -1,0 +1,202 @@
+﻿@page "/"
+@using DRD2.OnlineDiary.UI.Components.Layout
+@layout LoginLayout
+@rendermode InteractiveServer
+
+<PageTitle>Přihlášení - Online Deník</PageTitle>
+
+<div class="login-container">
+    <div class="login-overlay">
+        <div class="login-card">
+            <RadzenCard Class="login-form-card">
+                <RadzenStack Gap="1.5rem">
+                    <div class="login-header">
+                        <RadzenText TextStyle="TextStyle.H3" TagName="TagName.H1" Class="text-center">
+                            Online Deník
+                        </RadzenText>
+                        <RadzenText TextStyle="TextStyle.Subtitle1" Class="text-center text-muted">
+                            @(isRegistering ? "Vytvořit nový účet" : "Přihlášení do aplikace")
+                        </RadzenText>
+                    </div>
+
+                    @if (!string.IsNullOrEmpty(errorMessage))
+                    {
+                        <RadzenAlert AlertStyle="AlertStyle.Danger" Variant="Variant.Flat" Shade="Shade.Lighter">
+                            @errorMessage
+                        </RadzenAlert>
+                    }
+
+                    @if (!string.IsNullOrEmpty(successMessage))
+                    {
+                        <RadzenAlert AlertStyle="AlertStyle.Success" Variant="Variant.Flat" Shade="Shade.Lighter">
+                            @successMessage
+                        </RadzenAlert>
+                    }
+
+                    <RadzenStack Gap="1rem">
+                        <RadzenFormField Text="E-mail" Variant="Variant.Outlined">
+                            <RadzenTextBox @bind-Value="@email" 
+                                         Placeholder="vas@email.cz" 
+                                         Style="width: 100%;" 
+                                         aria-label="E-mail" />
+                        </RadzenFormField>
+
+                        <RadzenFormField Text="Heslo" Variant="Variant.Outlined">
+                            <RadzenPassword @bind-Value="@password" 
+                                          Placeholder="Zadejte heslo" 
+                                          Style="width: 100%;" 
+                                          aria-label="Heslo" />
+                        </RadzenFormField>
+
+                        @if (isRegistering)
+                        {
+                            <RadzenFormField Text="Potvrdit heslo" Variant="Variant.Outlined">
+                                <RadzenPassword @bind-Value="@confirmPassword" 
+                                              Placeholder="Potvrďte heslo" 
+                                              Style="width: 100%;" 
+                                              aria-label="Potvrdit heslo" />
+                            </RadzenFormField>
+                        }
+                    </RadzenStack>
+
+                    <RadzenStack Orientation="Orientation.Vertical" Gap="0.75rem">
+                        @if (isRegistering)
+                        {
+                            <RadzenButton Text="Registrovat" 
+                                        ButtonStyle="ButtonStyle.Danger" 
+                                        Style="width: 100%; background-color: #d32f2f; border-color: #d32f2f;" 
+                                        Click="@HandleRegister" 
+                                        IsBusy="@isLoading"
+                                        aria-label="Registrovat" />
+                        }
+                        else
+                        {
+                            <RadzenButton Text="Přihlásit se" 
+                                        ButtonStyle="ButtonStyle.Danger" 
+                                        Style="width: 100%; background-color: #d32f2f; border-color: #d32f2f;" 
+                                        Click="@HandleLogin" 
+                                        IsBusy="@isLoading"
+                                        aria-label="Přihlásit se" />
+                        }
+
+                        <RadzenButton Text="@(isRegistering ? "Již máte účet? Přihlásit se" : "Nemáte účet? Registrovat se")" 
+                                    ButtonStyle="ButtonStyle.Light" 
+                                    Variant="Variant.Text"
+                                    Style="width: 100%;" 
+                                    Click="@ToggleMode"
+                                    aria-label="@(isRegistering ? "Přepnout na přihlášení" : "Přepnout na registraci")" />
+                    </RadzenStack>
+                </RadzenStack>
+            </RadzenCard>
+        </div>
+    </div>
+</div>
+
+@code {
+    private string email = string.Empty;
+    private string password = string.Empty;
+    private string confirmPassword = string.Empty;
+    private bool isRegistering = false;
+    private bool isLoading = false;
+    private string errorMessage = string.Empty;
+    private string successMessage = string.Empty;
+
+    private void ToggleMode()
+    {
+        isRegistering = !isRegistering;
+        errorMessage = string.Empty;
+        successMessage = string.Empty;
+        confirmPassword = string.Empty;
+    }
+
+    private async Task HandleLogin()
+    {
+        errorMessage = string.Empty;
+        successMessage = string.Empty;
+
+        if (string.IsNullOrWhiteSpace(email))
+        {
+            errorMessage = "Prosím zadejte e-mail.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(password))
+        {
+            errorMessage = "Prosím zadejte heslo.";
+            return;
+        }
+
+        if (!IsValidEmail(email))
+        {
+            errorMessage = "Prosím zadejte platnou e-mailovou adresu.";
+            return;
+        }
+
+        isLoading = true;
+        await Task.Delay(1000); // Simulace API volání
+        isLoading = false;
+
+        // TODO: Implementovat skutečné přihlášení
+        successMessage = "Přihlášení proběhlo úspěšně! (Demo režim)";
+    }
+
+    private async Task HandleRegister()
+    {
+        errorMessage = string.Empty;
+        successMessage = string.Empty;
+
+        if (string.IsNullOrWhiteSpace(email))
+        {
+            errorMessage = "Prosím zadejte e-mail.";
+            return;
+        }
+
+        if (!IsValidEmail(email))
+        {
+            errorMessage = "Prosím zadejte platnou e-mailovou adresu.";
+            return;
+        }
+
+        if (string.IsNullOrWhiteSpace(password))
+        {
+            errorMessage = "Prosím zadejte heslo.";
+            return;
+        }
+
+        if (password.Length < 6)
+        {
+            errorMessage = "Heslo musí obsahovat alespoň 6 znaků.";
+            return;
+        }
+
+        if (password != confirmPassword)
+        {
+            errorMessage = "Hesla se neshodují.";
+            return;
+        }
+
+        isLoading = true;
+        await Task.Delay(1000); // Simulace API volání
+        isLoading = false;
+
+        // TODO: Implementovat skutečnou registraci
+        successMessage = "Registrace proběhla úspěšně! Nyní se můžete přihlásit.";
+        email = string.Empty;
+        password = string.Empty;
+        confirmPassword = string.Empty;
+        isRegistering = false;
+    }
+
+    private bool IsValidEmail(string email)
+    {
+        try
+        {
+            var addr = new System.Net.Mail.MailAddress(email);
+            return addr.Address == email;
+        }
+        catch
+        {
+            return false;
+        }
+    }
+}
