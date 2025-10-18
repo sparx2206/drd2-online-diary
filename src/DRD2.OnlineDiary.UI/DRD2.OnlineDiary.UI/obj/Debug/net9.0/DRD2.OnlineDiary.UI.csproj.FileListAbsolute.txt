@@ -138,8 +138,6 @@
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/compressed/kjv4h31dze-h1s4sie4z3.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/compressed/e4fwoc36o2-63fj8s7r0e.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/compressed/m8zol3hc1m-0j3bgjxly4.gz
-/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/compressed/qfkpwjsona-ea0lzk7iev.gz
-/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/compressed/kqs87zq7u4-ea0lzk7iev.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/staticwebassets.build.json
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/staticwebassets.build.json.cache
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/staticwebassets.development.json
@@ -150,3 +148,6 @@
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/DRD2.OnlineDiary.UI.pdb
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/DRD2.OnlineDiary.UI.genruntimeconfig.cache
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/ref/DRD2.OnlineDiary.UI.dll
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/scopedcss/Components/Pages/Home.razor.rz.scp.css
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/compressed/qfkpwjsona-d73lfnsaur.gz
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI/obj/Debug/net9.0/compressed/kqs87zq7u4-d73lfnsaur.gz

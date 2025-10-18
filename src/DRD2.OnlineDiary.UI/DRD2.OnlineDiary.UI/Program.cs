@@ -1,5 +1,6 @@
 using DRD2.OnlineDiary.UI.Client.Pages;
 using DRD2.OnlineDiary.UI.Components;
+using Radzen;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -7,6 +8,9 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents()
     .AddInteractiveWebAssemblyComponents();
+
+// Add Radzen services
+builder.Services.AddRadzenComponents();
 
 var app = builder.Build();
 

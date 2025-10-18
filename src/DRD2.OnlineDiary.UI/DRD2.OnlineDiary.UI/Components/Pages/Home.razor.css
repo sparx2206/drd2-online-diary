@@ -1,0 +1,133 @@
+/* Fantasy-themed login page with dark background */
+.login-container {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    
+    /* Fantasy gradient background simulating battle scene */
+    background: linear-gradient(135deg, 
+        #1a1a2e 0%, 
+        #16213e 20%, 
+        #0f3460 40%, 
+        #533483 60%, 
+        #8b4513 80%, 
+        #d2691e 100%);
+    
+    /* Add animated texture overlay */
+    background-size: 400% 400%;
+    animation: gradient-shift 15s ease infinite;
+}
+
+@keyframes gradient-shift {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* Add atmospheric overlay effect */
+.login-container::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        radial-gradient(circle at 20% 50%, rgba(255, 69, 0, 0.1) 0%, transparent 50%),
+        radial-gradient(circle at 80% 80%, rgba(139, 69, 19, 0.15) 0%, transparent 50%),
+        radial-gradient(circle at 40% 20%, rgba(75, 0, 130, 0.1) 0%, transparent 50%);
+    pointer-events: none;
+    animation: atmosphere-float 20s ease-in-out infinite;
+}
+
+@keyframes atmosphere-float {
+    0%, 100% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 0.8;
+    }
+}
+
+/* Dark overlay for better readability */
+.login-overlay {
+    width: 100%;
+    max-width: 450px;
+    padding: 2rem 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Card styling */
+.login-card {
+    position: relative;
+}
+
+.login-form-card {
+    background: rgba(30, 30, 30, 0.85) !important;
+    backdrop-filter: blur(20px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4),
+                0 0 100px rgba(139, 69, 19, 0.2);
+    padding: 2.5rem !important;
+}
+
+/* Header styling */
+.login-header {
+    margin-bottom: 1rem;
+}
+
+.login-header h1 {
+    color: #ffffff;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.text-muted {
+    color: rgba(255, 255, 255, 0.7) !important;
+}
+
+/* Responsive design */
+@media (max-width: 576px) {
+    .login-overlay {
+        padding: 1rem 0.5rem;
+    }
+    
+    .login-form-card {
+        padding: 2rem 1.5rem !important;
+    }
+}
+
+/* Ensure form fields have good contrast */
+::deep .rz-textbox,
+::deep .rz-password {
+    background-color: rgba(50, 50, 50, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    color: #ffffff !important;
+}
+
+::deep .rz-textbox:focus,
+::deep .rz-password:focus {
+    border-color: #d32f2f !important;
+    box-shadow: 0 0 0 0.2rem rgba(211, 47, 47, 0.25) !important;
+}
+
+/* Label styling */
+::deep .rz-form-field label {
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+/* Alert styling */
+::deep .rz-alert {
+    backdrop-filter: blur(10px);
+}

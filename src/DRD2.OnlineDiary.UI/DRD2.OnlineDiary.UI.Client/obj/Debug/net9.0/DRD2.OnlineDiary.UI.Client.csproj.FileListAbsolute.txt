@@ -199,8 +199,6 @@
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat
-/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/DRD2.OnlineDiary.UI.Client.hcv58qw04u.wasm
-/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/DRD2.OnlineDiary.UI.Client.687b6ia21c.pdb
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.webassembly.js.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/Microsoft.AspNetCore.Authorization.50odlujk1g.wasm.gz
@@ -403,8 +401,6 @@
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_CJK.tjcz0u77k5.dat.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_EFIGS.tptq2av103.dat.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/icudt_no_CJK.lfu7j35m59.dat.gz
-/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/DRD2.OnlineDiary.UI.Client.hcv58qw04u.wasm.gz
-/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/DRD2.OnlineDiary.UI.Client.687b6ia21c.pdb.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/blazor.boot.json.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/DRD2.OnlineDiary.UI.Client.staticwebassets.runtime.json
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/DRD2.OnlineDiary.UI.Client.staticwebassets.endpoints.json
@@ -1019,9 +1015,6 @@
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/compressed/79t6dzrhbf-tjcz0u77k5.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/compressed/m9hblesk2u-tptq2av103.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/compressed/lmwo5nrj8s-lfu7j35m59.gz
-/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/compressed/mvlh4wh65d-hcv58qw04u.gz
-/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/compressed/wguoktgvro-687b6ia21c.gz
-/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/compressed/7wniy9jdk1-v0kr5lobh9.gz
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/staticwebassets.build.json
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/staticwebassets.build.json.cache
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/staticwebassets.development.json
@@ -1031,3 +1024,10 @@
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/refint/DRD2.OnlineDiary.UI.Client.dll
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/DRD2.OnlineDiary.UI.Client.pdb
 /home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/ref/DRD2.OnlineDiary.UI.Client.dll
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/DRD2.OnlineDiary.UI.Client.vao41rwgty.wasm
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/DRD2.OnlineDiary.UI.Client.xayvnv0vqv.pdb
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/DRD2.OnlineDiary.UI.Client.vao41rwgty.wasm.gz
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/bin/Debug/net9.0/wwwroot/_framework/DRD2.OnlineDiary.UI.Client.xayvnv0vqv.pdb.gz
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/compressed/mvlh4wh65d-vao41rwgty.gz
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/compressed/wguoktgvro-xayvnv0vqv.gz
+/home/runner/work/drd2-online-diary/drd2-online-diary/src/DRD2.OnlineDiary.UI/DRD2.OnlineDiary.UI.Client/obj/Debug/net9.0/compressed/7wniy9jdk1-wdr5hkapwi.gz
